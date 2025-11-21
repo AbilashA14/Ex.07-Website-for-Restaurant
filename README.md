@@ -1,1 +1,163 @@
-# Ex.07-Website-for-Restaurant
+# Ex.07 Restuarant Website
+
+
+## AIM:
+To develop a static Resturant website to display the menu and services provided by the resturant.
+
+## DESIGN STEPS:
+
+### Step 1:
+Requirement collection.
+
+### Step 2:
+Creating the layout using HTML and CSS.
+
+### Step 3:
+Updating the sample content.
+
+### Step 4:
+Choose the appropriate style and color scheme.
+
+### Step 5:
+Validate the layout in various browsers.
+
+### Step 6:
+Validate the HTML code.
+
+### Step 7:
+Publish the website in the given URL.
+
+## PROGRAM:
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HIMALAYA BLISS - RESTAURANT DESIGN</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Courier New', monospace;
+            background-color: #f1f3f1;
+        }
+
+    
+        .header {
+            text-align: center;
+            padding: 30px 0;
+        }
+
+        .header img {
+            height: 100px;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            color: #3f5a52;
+            letter-spacing: 3px;
+            margin-top: 10px;
+        }
+
+        
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #2f2f2f;
+            border-radius: 20px;
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto 30px auto; 
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 20px 40px;
+            font-size: 1.2em;
+            transition: background 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #3f5a52;
+            border-radius: 20px;
+        }
+
+        
+        .main-hero-image {
+            display: block; 
+            max-width: 90%;
+            height: auto;
+            margin: 30px auto;
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+        }
+
+        .image-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .image-gallery img {
+            max-width: 100%;
+            height: auto;
+            width: 300px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        @media (max-width: 768px) {
+            nav a {
+                padding: 15px 15px;
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <img src="header.png" alt="HIMALAYA BLISS LOGO">
+        <h1>HIMALAYA BLISS</h1>
+    </div>
+
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="menus1.html">Menu</a>
+        <a href="admins1.html">Administration</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+    
+    
+
+    <div class="image-gallery">
+        <img src="images1.jpeg" alt="FOODS1">
+        <img src="images2.webp" alt="FOODS2">
+        <img src="images3.jpeg" alt="FOODS3">
+    </div>
+    <footer align="center">
+    <p>MADE BY VESHWANTH.</p>
+</footer>
+</body>
+</html>
+```
+
+## OUTPUT:
+<img width="1920" height="1200" alt="Screenshot 2025-11-12 220334" src="https://github.com/user-attachments/assets/f2683a01-771d-4a20-9d01-cefd388e49d1" />
+
+<img width="1920" height="1200" alt="Screenshot 2025-11-12 220459" src="https://github.com/user-attachments/assets/1f8e546b-5444-4540-82f3-36992ca5a30c" />
+
+<img width="1920" height="1200" alt="Screenshot 2025-11-12 220552" src="https://github.com/user-attachments/assets/aa0f8cc5-4d3a-447d-ab91-a31d407b9957" />
+
+<img width="1920" height="1200" alt="Screenshot 2025-11-12 221043" src="https://github.com/user-attachments/assets/875b69aa-b72e-4440-9711-00171807fd55" />
+
+<img width="1920" height="1200" alt="Screenshot 2025-11-12 221219" src="https://github.com/user-attachments/assets/6f615420-353c-4cd2-908c-4273d8d709dc" />
+
+## RESULT:
+The program for designing software company website using HTML and CSS is completed successfully.
